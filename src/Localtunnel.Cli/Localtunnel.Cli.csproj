@@ -11,6 +11,7 @@
     <Company>Angelo Breuer</Company>
     <Version>1.0.3</Version>
     <Copyright>Angelo Breuer 2021</Copyright>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
