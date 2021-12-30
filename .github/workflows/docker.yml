@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/${{github.event.repository.name}}
+          images: ghcr.io/mberezovskiy/${{github.event.repository.name}}
           tags: |
             type=ref,event=branch
             type=ref,event=pr
